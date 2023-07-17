@@ -1,10 +1,13 @@
+package ru.netology.services;
+
 import org.junit.Assert;
 import org.junit.Test;
-import ru.netology.services.VacationService;
+//import ru.netology.services.VacationService;
 
 public class VacationServiceTest {
     @Test
-    public void testCalculateCount1() {
+
+    public void testCalculateCount() {
         VacationService vacationService = new VacationService();
         int income = 10_000;
         int expenses = 3000;
